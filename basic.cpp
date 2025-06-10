@@ -69,9 +69,18 @@ int main()
     // int number = 0xff ;
     // cout<<number;
 
-     srand(time(0));
-    int number=rand() % 10;
-        cout<< number << endl;
+    //  srand(time(0));
+    // int number=rand() % 10;
+    //     cout<< number << endl;
+    class Solution {
+  public:
+    int calculate(int a, int b, int c, int d) {
+        // Code here
+        int result= ( ( a + b ) / c) + d;
+        cout<<result;
+    }
+};
+
 
     return 0;
 }
