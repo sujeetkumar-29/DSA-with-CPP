@@ -2,6 +2,7 @@
 #include <cmath>
 #include <cstdlib>
 #include <ctime>
+#include <typeinfo>
 
 using namespace std;
 int main()
@@ -72,15 +73,18 @@ int main()
     //  srand(time(0));
     // int number=rand() % 10;
     //     cout<< number << endl;
-    class Solution {
-  public:
-    int calculate(int a, int b, int c, int d) {
-        // Code here
-        int result= ( ( a + b ) / c) + d;
-        cout<<result;
-    }
-};
+//     class Solution {
+//   public:
+//     int calculate(int a, int b, int c, int d) {
+//         // Code here
+//         int result= ( ( a + b ) / c) + d;
+//         cout<<result;
+//     }
+// };
 
+    // int n=30;
+    // cout<<std::typeid(n)
+    
 
     return 0;
 }
