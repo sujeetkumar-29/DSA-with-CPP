@@ -12,9 +12,9 @@ int main(){
     cin>>d;
 
     int x=n% 7;
-    int ans = d - x;
+    int ans = d - x; // use - for after days
 
-    if(ans > 0){
+    if(ans >= 0){
         if(ans == 1){
             cout<<"Monday";
         }else if(ans == 2){
