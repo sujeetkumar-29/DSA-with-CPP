@@ -13,7 +13,7 @@ T arrMax(T arr[], int n){
 
 int main()
 {
-    int arr1[] = {10, 40, 3};
+    int arr1[] = {10, 40, 3555};
     cout << arrMax<int>(arr1, 3) << " ";
     
     float arr2[] = {10.5, 3.5, 1.5, 30.5};
